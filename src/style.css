@@ -1,0 +1,5 @@
+.command { background-color: #f0f0f0; margin-bottom: 1em }
+.input,.output { white-space: pre; font-family: monospace }
+.commandline,.output { border: 1px solid #e0e0e0; padding-left: 0.5em; padding-right: 0.5em; height: 100% }
+.commandline { border-bottom: 0px }
+.output { box-shadow: 1px 2px 2px #888888; padding-top: 0.5em; padding-bottom: 0.5em; }

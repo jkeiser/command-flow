@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+  </head>
+  <body>
+    <div id="session"></div>
+  </body>
+
+  <script>
+  import Vue from 'vue';
+  import Session from './session';
+
+  const session = new Vue(Session).$mount('#session');
+
+  session.text = "Electron Forge with Vue.js!";
+
+  </script>
+</html>
