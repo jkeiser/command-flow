@@ -22,6 +22,7 @@ export default {
       commands: [
         {
           command: "cd blagh",
+          directory: "/home/jkeiser",
           exitCode: 1,
           output: [
             { stream: STDERR, timestamp: Date.now(), text: "No such directory." }
@@ -29,11 +30,13 @@ export default {
         },
         {
           command: "cd blah",
+          directory: "/home/jkeiser",
           exitCode: 0,
           output: []
         },
         {
           command: "ls",
+          directory: "/home/jkeiser/blah",
           exitCode: 0,
           output: [
             { timestamp: Date.now(), text: "/hello.txt\n" },
@@ -42,6 +45,7 @@ export default {
         },
         {
           command: "yes",
+          directory: "/home/jkeiser/blah",
           output: [
             { timestamp: Date.now(), text: "Y\n" },
             { timestamp: Date.now(), text: "Y\n" },
@@ -65,8 +69,7 @@ export default {
             { timestamp: Date.now(), text: "Y\n" },
             { timestamp: Date.now(), text: "Y\n" },
             { timestamp: Date.now(), text: "Y\n" },
-          ],
-          stderr: []
+          ]
         },
       ]
     }
