@@ -5,30 +5,29 @@
 
 ._1yKedz9kuIsBcCB2nKq0xG {
     background-color: #f0f0f0;
-    margin-bottom: 1em
+    margin-bottom: 1em;
+}
+
+._2x7_ZYjfPqSzx45GfAq-8I,._1f-20tpfPY8WkSt4dXAFAx {
+    height: 100%;
+    border: 2px solid #e0e0e0;
 }
 
 ._2x7_ZYjfPqSzx45GfAq-8I {
     width: min-content;
-    border-top: 1px solid #e0e0e0;
-    border-left: 1px solid #e0e0e0;
-    border-right: 1px solid #e0e0e0;
-    padding: 0 0.5em
+    border-bottom: 0;
+    padding: 0.5em;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 ._1f-20tpfPY8WkSt4dXAFAx {
-    border: 1px solid #e0e0e0;
-    box-shadow: 1px 2px 2px #888888;
-    padding: 0.5em
-}
-
-._2x7_ZYjfPqSzx45GfAq-8I,._1f-20tpfPY8WkSt4dXAFAx {
-    height: 100%
+    padding: 0.5em;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 ._5q__xBw_lEOAcd28_B3sm {
     white-space: pre;
-    font-family: monospace
+    font-family: monospace;
 }
 /*
  * Every class name will be hashed so it can be used their own component scoped
