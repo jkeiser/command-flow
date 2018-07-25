@@ -25,17 +25,8 @@
 .input,.output {
     height: 100%
 }
- 
-.commandline,.output {
+
+.commandline {
     white-space: pre;
     font-family: monospace
-}
-
-.stdout {
-    color: black;
-}
-
-.stderr {
-    color: white;
-    background-color: red;
 }

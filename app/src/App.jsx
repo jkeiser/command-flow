@@ -17,8 +17,9 @@ export default class App extends Component {
         return (
             <div>
                 <Command commandline="ls" directory="/home/jkeiser/blah" exitCode={0} output={[
-      { timestamp: Date.now(), text: "/hello.txt\n" },
-      { timestamp: Date.now(), text: "/hello.csv\n" },
+      { timestamp: Date.now(), data: "/hello.txt\n" },
+      { timestamp: Date.now(), data: "/hello.csv\n" },
+      { stream: "stderr", timestap: Date.now(), data: "/: no such directory. Perhaps you deleted your hard drive?\n"}
     ]} />
             </div>
         )

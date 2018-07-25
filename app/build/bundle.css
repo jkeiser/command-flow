@@ -25,17 +25,30 @@
 ._2x7_ZYjfPqSzx45GfAq-8I,._1f-20tpfPY8WkSt4dXAFAx {
     height: 100%
 }
- 
-._5q__xBw_lEOAcd28_B3sm,._1f-20tpfPY8WkSt4dXAFAx {
+
+._5q__xBw_lEOAcd28_B3sm {
+    white-space: pre;
+    font-family: monospace
+}
+/*
+ * Every class name will be hashed so it can be used their own component scoped
+ * Use classes instead of ids
+ */
+
+.UFPfoNwNtBxiUY9MT7Fzv {
+    height: 100%
+}
+
+._1L2P8zYEvEPCh_BVqiY3BL,._3-bjYDa3r_Vjv1GFFvLvuD {
     white-space: pre;
     font-family: monospace
 }
 
-.qaU_RoYJVC_UFwhz8KHYE {
+._1L2P8zYEvEPCh_BVqiY3BL {
     color: black;
 }
 
-.Hh-TCIsjc0flJn9Jm1lUI {
+._3-bjYDa3r_Vjv1GFFvLvuD {
     color: white;
     background-color: red;
 }/*
