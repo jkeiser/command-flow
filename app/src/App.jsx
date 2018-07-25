@@ -24,10 +24,7 @@ export default class App extends Component {
             <div>
                 {logosRender}
 
-                <Command commandline="ls" directory="/home/jkeiser/blah" exitCode={0} output={[
-      { timestamp: Date.now(), text: "/hello.txt\n" },
-      { timestamp: Date.now(), text: "/hello.csv\n" },
-    ]} />
+                <Command />
             </div>
         )
     }
