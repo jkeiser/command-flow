@@ -3,6 +3,37 @@
  * Use classes instead of ids
  */
 
+._2ox3z-PT2ffWZKHjGVpNPI {
+    background-color: #f0f0f0;
+    margin-bottom: 1em;
+}
+
+._3xfiv9fKoOkoVtIbBJurDO,._1CVooYJEMoNWOx1Fc8nSdV {
+    height: 100%;
+    border: 2px solid #e0e0e0;
+}
+
+._3xfiv9fKoOkoVtIbBJurDO {
+    width: min-content;
+    border-bottom: 0;
+    padding: 0.5em;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+._1CVooYJEMoNWOx1Fc8nSdV {
+    padding: 0.5em;
+    box-shadow: 1px 1px 2px #888888;
+}
+
+.uC4ISixXgLVvgpl_1TdME {
+    white-space: pre;
+    font-family: monospace;
+}
+/*
+ * Every class name will be hashed so it can be used their own component scoped
+ * Use classes instead of ids
+ */
+
 ._1yKedz9kuIsBcCB2nKq0xG {
     background-color: #f0f0f0;
     margin-bottom: 1em;
