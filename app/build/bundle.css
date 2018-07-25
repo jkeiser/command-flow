@@ -3,33 +3,42 @@
  * Use classes instead of ids
  */
 
-._1WcHgGtKrxqKCsGYj62eVK {
-    height: 100px;
+._1yKedz9kuIsBcCB2nKq0xG {
+    background-color: #f0f0f0;
+    margin-bottom: 1em
 }
-/*
- * Every class name will be hashed so it can be used their own component scoped
- * Use classes instead of ids
- */
 
- ._1yKedz9kuIsBcCB2nKq0xG { background-color: #f0f0f0; margin-bottom: 1em }
+._2x7_ZYjfPqSzx45GfAq-8I {
+    width: min-content;
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 0.5em
+}
 
- ._2x7_ZYjfPqSzx45GfAq-8I {
-     width: min-content;
-     border-top: 1px solid #e0e0e0;
-     border-left: 1px solid #e0e0e0;
-     border-right: 1px solid #e0e0e0;
-     padding: 0 0.5em
- }
- ._1f-20tpfPY8WkSt4dXAFAx {
-     border: 1px solid #e0e0e0;
-     box-shadow: 1px 2px 2px #888888;
-     padding: 0.5em
- }
- ._2x7_ZYjfPqSzx45GfAq-8I,._1f-20tpfPY8WkSt4dXAFAx {
-     height: 100%
- }
+._1f-20tpfPY8WkSt4dXAFAx {
+    border: 1px solid #e0e0e0;
+    box-shadow: 1px 2px 2px #888888;
+    padding: 0.5em
+}
+
+._2x7_ZYjfPqSzx45GfAq-8I,._1f-20tpfPY8WkSt4dXAFAx {
+    height: 100%
+}
  
- ._5q__xBw_lEOAcd28_B3sm,._1f-20tpfPY8WkSt4dXAFAx { white-space: pre; font-family: monospace }/*
+._5q__xBw_lEOAcd28_B3sm,._1f-20tpfPY8WkSt4dXAFAx {
+    white-space: pre;
+    font-family: monospace
+}
+
+.qaU_RoYJVC_UFwhz8KHYE {
+    color: black;
+}
+
+.Hh-TCIsjc0flJn9Jm1lUI {
+    color: white;
+    background-color: red;
+}/*
  * Global constants goes here
  */
 :root {
@@ -44,6 +53,7 @@ html {
     height: 100%;
 }
 body {
+    background-color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,14 +61,6 @@ body {
     margin: auto;
 }
 #app {
-    color: #2c3e50;
     max-width: 600px;
     font-family: Source Sans Pro, Helvetica, sans-serif;
-    text-align: center;
-}
-#app p {
-    text-align: justify;
-}
-.hello {
-    color: var(--primary-color);
 }

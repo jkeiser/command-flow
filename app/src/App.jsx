@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import {render} from 'react-dom'
-import Logo from './components/Logo/'
 import Command from './components/Command/'
 
 import ElectronImg from './assets/electron.png'
@@ -16,14 +14,8 @@ const logos = [
 
 export default class App extends Component {
     render() {
-        const logosRender = logos.map( (logo, index) => {
-            return <Logo key = {index} src = { logo } />
-        })
-
         return (
             <div>
-                {logosRender}
-
                 <Command commandline="ls" directory="/home/jkeiser/blah" exitCode={0} output={[
       { timestamp: Date.now(), text: "/hello.txt\n" },
       { timestamp: Date.now(), text: "/hello.csv\n" },

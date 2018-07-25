@@ -3,22 +3,39 @@
  * Use classes instead of ids
  */
 
- .command { background-color: #f0f0f0; margin-bottom: 1em }
+.command {
+    background-color: #f0f0f0;
+    margin-bottom: 1em
+}
 
- .input {
-     width: min-content;
-     border-top: 1px solid #e0e0e0;
-     border-left: 1px solid #e0e0e0;
-     border-right: 1px solid #e0e0e0;
-     padding: 0 0.5em
- }
- .output {
-     border: 1px solid #e0e0e0;
-     box-shadow: 1px 2px 2px #888888;
-     padding: 0.5em
- }
- .input,.output {
-     height: 100%
- }
+.input {
+    width: min-content;
+    border-top: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding: 0 0.5em
+}
+
+.output {
+    border: 1px solid #e0e0e0;
+    box-shadow: 1px 2px 2px #888888;
+    padding: 0.5em
+}
+
+.input,.output {
+    height: 100%
+}
  
- .commandline,.output { white-space: pre; font-family: monospace }
+.commandline,.output {
+    white-space: pre;
+    font-family: monospace
+}
+
+.stdout {
+    color: black;
+}
+
+.stderr {
+    color: white;
+    background-color: red;
+}
